@@ -8,25 +8,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6058d2a0-8ef6-4ae6-a637-f683acc0bd83" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/gcd.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/hello.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/min.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gen/com/antlr/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/antlr4/Swift.g4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/antlr4/SwiftParser.g4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/antlr/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/antlr/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/generated-sources/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/generated-sources/annotations/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/generated-test-sources/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/generated-test-sources/test-annotations/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/workflows/build.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/antlr/.gitkeep" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +46,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.AppTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Lexer" />
@@ -101,8 +87,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.AppTest" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.AppTest.testOperators" />
       </list>
     </recent_temporary>
