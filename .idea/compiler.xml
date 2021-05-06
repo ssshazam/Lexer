@@ -7,10 +7,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Lexer" />
+        <module name="Lexer" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="Lexer" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>

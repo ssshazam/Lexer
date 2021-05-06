@@ -1,5 +1,6 @@
 package org.antlr;
 
+import com.antlr.Swift;
 import org.antlr.v4.runtime.CharStreams;
 import org.antlr.v4.runtime.Token;
 import org.junit.Test;
