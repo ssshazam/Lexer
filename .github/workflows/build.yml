@@ -13,5 +13,14 @@ jobs:
         with:
           java-version: '11'
           distribution: 'adopt'
+      - name: Install Antlr4
+        run: curl -O https://www.antlr.org/download/antlr-4.9-complete.jar && \\
+          export CLASSPATH=".:$(pwd)/antlr-4.9-complete.jar:$CLASSPATH" && \\
+        alias antlr4='java -Xmx500M -cp "$(pwd)/antlr-4.9-complete.jar:$CLASSPATH" org.antlr.v4.Tool' && \\
+        alias grun='java -Xmx500M -cp "$(pwd)/antlr-4.9-complete.jar:$CLASSPATH" org.antlr.v4.gui.TestRig'
+      - name: Create Lexer and Parser
+        run: cd ./src/main/antlr4/ && antlr4 Swift.g4 -o ../../../gen && antlr4 SwiftParser.g4 -o ../../../gen && cd ../../../
+      - name: Compile Lexer and Parser
+        run: javac ./gen/com/antlr/Swift*.java
       - name: Build with Maven
         run: mvn --batch-mode --update-snapshots verify
