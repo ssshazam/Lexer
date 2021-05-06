@@ -1,0 +1,9 @@
+examples/gcd
+examples/hello
+examples/min
+examples/test.swift
+gen/com/antlr/Swift*
+src/main/antlr4/Swift.tokens
+target/classes/com/antlr/Swift*
+target/test-classes/org/antlr/AppTest.class
+target/classes/Main.class
